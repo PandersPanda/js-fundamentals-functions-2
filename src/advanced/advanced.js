@@ -86,7 +86,7 @@ function parseRequest(req) {
 
 // 2. Create a function named parseHeader that accepts two parameters:
 // - a string for one header, and an object of current headers that must be augmented with the parsed header
-// it doesnt return nothing, but updates the header object with the parsed header
+// it returns nothing, and updates the header object with the parsed header
 // eg: parseHeader('Host: www.example.com', {})
 //        => { Host: 'www.example.com' }
 // eg: parseHeader('Authorization: Bearer your_access_token', { Host: 'www.example.com' })
